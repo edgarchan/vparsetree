@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+  
+  <title>Expresion</title>
+  
+  <style>
+     .navbar-inner {
+        padding-top: 6px;
+     }
+     button.btn, input.btn[type="submit"] {
+          margin-top: -8px;
+     }
+	.node circle {
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 1.5px;
+	}
+	.node {
+	  font: 10px sans-serif;
+	}
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 1.5px;
+	}
+          
+  </style>
+    
+</head>
+
+<body>
+
+	<div class="navbar navbar-fixed-top">
+	      <div class="navbar-inner">
+            <div class="container-fluid">
+              <input data-bind="value: tag" class="span4" type="text">
+              <button data-bind="click: enviar" class="btn btn-primary" type="button">go</button>
+              <a class="brand" href="#">Expresion</a>
+            </div>
+	      </div>
+	</div>
+
+	<div id="graph" class="container-fluid">
+	  
+	</div>  
+
+</body>
+
+
+<script src='js/sockjs-0.2.1.min.js'></script>
+<script src='js/knockout-2.0.0.js'></script>
+<script src='js/vertxbus.js'></script>
+<script src='js/clientapp.js'></script>
+
+</html>
