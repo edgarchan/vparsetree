@@ -1,7 +1,7 @@
-# Vert.x Gradle Template
+# Graphical Parse Tree
 
-Template project for creating a Vert.x module with a Gradle build.
+Simple application that creates a graphical representation of the parse tree generated with the [parboiled](http://parboiled.org/) parsing library. It uses
+the [Simple Calculator](https://github.com/sirthias/parboiled/wiki/Simple-Calculator) example grammar provided with parboiled but
+should be easy to add a new one.
 
-Clone this and adapt it to easily develop Vert.x modules using Gradle as your build tool.
-
-See the [build script](build.gradle) for the list of useful tasks
+The web stuff is powered with the [vert.x](http://vertx.io/) framework and [D3.js](http://d3js.org/)
