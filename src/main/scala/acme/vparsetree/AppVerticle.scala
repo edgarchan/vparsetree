@@ -4,8 +4,9 @@ import org.vertx.java.platform.Verticle
 import org.vertx.java.core.json.JsonObject
 
 /**
+ * Main verticle to bootstrap the web-server mod and AppService verticle
+ *
  * Date: 4/5/13
- * Time: 5:55 PM
  * @author Edgar Chan
  */
 class AppVerticle extends Verticle{

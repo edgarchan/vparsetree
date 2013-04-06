@@ -6,7 +6,6 @@ import org.vertx.java.core.json.JsonObject
 
 /**
  * Date: 4/5/13
- * Time: 9:16 PM
  * @author Edgar Chan
  */
 class JSONResultFormatterTest {

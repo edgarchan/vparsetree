@@ -7,8 +7,8 @@ import org.vertx.java.platform.Verticle
 
 
 /**
+ * web app message handler
  * Date: 4/5/13
- * Time: 6:48 PM
  * @author Edgar Chan
  */
 class AppService extends Verticle with Handler[Message[JsonObject]]{

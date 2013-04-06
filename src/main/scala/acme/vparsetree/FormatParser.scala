@@ -7,8 +7,10 @@ import org.parboiled.scala.parserunners.ReportingParseRunner
 import org.vertx.java.core.json.JsonObject
 
 /**
+ * Mix in this trait with a parser to get a json representation
+ * of a parsing result
+ *
  * Date: 4/5/13
- * Time: 6:44 PM
  * @author Edgar Chan
  */
 trait FormatParser extends JSONResultFormatter{

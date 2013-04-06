@@ -8,8 +8,9 @@ import org.parboiled.scala.ParsingResult
 import org.parboiled.support.ParseTreeUtils
 
 /**
+ * Utilities to create a json string of a parsed grammar
+ *
  * Date: 4/5/13
- * Time: 6:45 PM
  * @author Edgar Chan
  */
 trait JSONResultFormatter {
