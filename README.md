@@ -11,5 +11,5 @@ The web stuff is powered with [vert.x](http://vertx.io/) and [D3.js](http://d3js
  ```
  1. Run gradlew with runMod option
  2. Open your browser and point to localhost:8080
- 3. Type type an arithmetic expression to create the tree
+ 3. Type an arithmetic expression to create the tree
  ```
